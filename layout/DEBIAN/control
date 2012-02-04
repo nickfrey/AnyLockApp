@@ -1,0 +1,9 @@
+Package: com.nickf.anylockapp
+Name: AnyLockApp
+Depends: mobilesubstrate, applist, preferenceloader
+Version: 1.0
+Architecture: iphoneos-arm
+Description: change the lockscreen camera shortcut to any app
+Maintainer: Nick Frey
+Author: Nick Frey <nickfrey123@gmail.com>
+Section: Tweaks

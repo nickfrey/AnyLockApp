@@ -1,0 +1,36 @@
+entry = {
+	cell = PSLinkCell;
+	icon = "AnyLockApp.png";
+	label = "AnyLockApp";
+};
+title = "AnyLockApp";
+items = (
+	{
+		cell = PSGroupCell;
+		footerText = "Choose an app to open when you touch the camera button.";
+	},
+	{
+		cell = PSLinkCell;
+		bundle = AppList;
+		isController = 1;
+		label = "Open App";
+		ALSettingsPath = "/var/mobile/Library/Preferences/com.nickf.anylockapp.plist";
+		ALSettingsKey = "openApp";
+		ALSingleEnabledMode = 1;
+	},
+	{
+		cell = PSGroupCell;
+		footerText = "Put the icon of the selected app on top of the camera button.";
+	},
+	{
+		cell = PSSwitchCell;
+		label = "Show App Icon";
+		default = true;
+		defaults = "com.nickf.anylockapp";
+		key = "showAppIcon";
+	},
+	{
+		cell = PSGroupCell;
+		footerText = "Copyright © 2011 Nick Frey. (http://twitter.com/TheNickF)";
+	},
+);
