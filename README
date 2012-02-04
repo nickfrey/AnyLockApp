@@ -1,0 +1,3 @@
+Set the lockscreen camera shortcut to open any app
+
+Available in the BigBoss repo, uses PreferenceLoader for settings
